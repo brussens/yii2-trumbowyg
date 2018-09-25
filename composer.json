@@ -1,0 +1,34 @@
+{
+    "name": "brussens/yii2-trumbowyg",
+    "description": "Trumbowyg extension for YiiFramework 2.x.x",
+    "keywords": ["yii", "extension", "widget", "trumbowyg", "wysiwyg", "yii2"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/brussens/yii2-trumbowyg/issues?state=open",
+        "source": "https://github.com/brussens/yii2-trumbowyg"
+    },
+    "authors": [
+        {
+            "name": "Dmitry Brusensky",
+            "email": "brussens@nativeweb.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "^2.0.0",
+        "bower-asset/trumbowyg": "^2.11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "brussens\\yii2\\extensions\\trumbowyg\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
